@@ -1,0 +1,30 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,215,148,1) 100%);
+}
+
+#content-wrap{
+    display: none;
+}
+
+#chat{
+    height: 480px;
+}
+
+.msg-area{
+    border-radius: 4px;
+}
+
+.msg{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.salir:hover{
+    cursor: pointer;
+}
+
+.enlace-salir{
+    color:#65c8e6;
+}
